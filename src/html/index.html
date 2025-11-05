@@ -3,18 +3,21 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/svg+xml" href="../assets/img/logo.svg" />
         <link rel="stylesheet" href="../css/index.css" />
         <title>BikepackIMAC</title>
     </head>
     <body>
         <header>
-            <img id="logoHeader" src="../assets/img/logo.svg" />
+            <img id="logoHeader" src="../assets/img/logo.svg" alt="" />
             <nav id="navHeader">
-                <a href="" target="_self">Accueil</a>
+                <a href="" title="Revenir à l'accueil"> Accueil </a>
                 <!-- TODO: insert link-->
-                <a href="" target="_self">Vélos</a>
+                <a href="" title="Accéder au guide des vélos"> Vélos </a>
                 <!-- TODO: insert link-->
-                <a href="" target="_self">Itinéraires</a>
+                <a href="" title="Accéder au guide des itinéraires">
+                    Itinéraires
+                </a>
                 <!-- TODO: insert link-->
             </nav>
         </header>
@@ -22,7 +25,7 @@
         <main>
             <h1 class="bigred" id="title">Partez à l'aventure</h1>
 
-            <img src="../assets/img/illustration_bike-desert.jpg" />
+            <img src="../assets/img/illustration_bike-desert.jpg" alt="" />
 
             <h2>BikepackIMAC, la référence du bikepacking</h2>
 
@@ -31,13 +34,19 @@
                 une expérience inoubliable à vélo.
             </p>
 
-            <img src="../assets/img/3_bikes.webp" />
+            <img src="../assets/img/3_bikes.webp" alt="" />
 
-            <a class="btn">Guide des vélos</a>
+            <a class="btn" title="Accéder au guide des vélos">
+                Guide des vélos
+            </a>
+            <!-- TODO: insert link-->
 
-            <img src="../assets/img/illustration_itineraires.jpg" />
+            <img src="../assets/img/illustration_itineraires.jpg" alt="" />
 
-            <a class="btn">Guide des itinéraires</a>
+            <a class="btn" title="Accéder au guide des itinéraires">
+                Guide des itinéraires
+            </a>
+            <!-- TODO: insert link-->
         </main>
 
         <footer>
@@ -46,29 +55,44 @@
                     <div id="fsg1">
                         <p>Plan du site</p>
                         <nav id="navFooter">
-                            <a class="textsmall" href="" target="_self"
-                                >Accueil</a
+                            <a
+                                href=""
+                                class="textsmall"
+                                title="Revenir à l'accueil"
                             >
+                                Accueil
+                            </a>
                             <!-- TODO: insert link-->
-                            <a class="textsmall" href="" target="_self"
-                                >Guide des Vélos</a
+                            <a
+                                href=""
+                                class="textsmall"
+                                title="Accéder au guide des vélos"
                             >
+                                Vélos
+                            </a>
                             <!-- TODO: insert link-->
-                            <a class="textsmall" href="" target="_self"
-                                >Guide des Itinéraires</a
+                            <a
+                                href=""
+                                class="textsmall"
+                                title="Accéder au guide des itinéraires"
                             >
-                            <!-- TODO: insert link-->
+                                Itinéraires
+                            </a>
                         </nav>
                     </div>
                     <div id="fsg2">
                         <p>
                             Ce site web est réalisé dans le cadre de
                             <u>la formation IMAC de l'ESIEE</u>. Il est à but
-                            déucatif uniquement.
+                            éducatif uniquement.
                         </p>
                     </div>
                     <div id="fsg3">
-                        <img id="logoFooter" src="../assets/img/logo.svg" />
+                        <img
+                            id="logoFooter"
+                            src="../assets/img/logo.svg"
+                            alt=""
+                        />
                     </div>
                 </div>
 

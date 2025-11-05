@@ -1,33 +1,10 @@
 @import url(../css/main.css);
 
 /*TODO: make stuff duh*/
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-self: center;
-    align-items: center;
-    gap: 32px;
-    padding: 32px;
-
-    width: 800px;
-}
 
 #title {
     font-size: 72px;
     text-transform: uppercase;
     width: 571px;
     text-align: center;
-}
-
-main > img {
-    object-fit: contain;
-    width: 100%;
-}
-
-main > p,
-main > h2 {
-    margin-inline: 16px;
-    text-align: left;
-    align-self: start;
 }

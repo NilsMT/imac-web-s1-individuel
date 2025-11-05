@@ -1,20 +1,48 @@
 @import url(../css/fonts.css);
-@import url(../css/palette.css);
+@import url(../css/palette_typo.css);
 @import url(../css/components/footer.css);
 @import url(../css/components/header.css);
 @import url(../css/components/button.css);
 
+/********************************/
+/* SPACING */
+/********************************/
+
+h1,
+h2,
+h3,
+p,
 body {
     padding: 0;
     margin: 0;
 }
 
-h1,
-h2,
-h3,
-p {
-    padding: 0;
-    margin: 0;
+/********************************/
+/* MAIN TAG */
+/********************************/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+
+    width: 800px;
+}
+
+main > img {
+    object-fit: contain;
+    width: 100%;
+}
+
+main > p,
+main > h2 {
+    margin-inline: 16px;
+    text-align: left;
+    align-self: start;
 }
 
 /********************************/
