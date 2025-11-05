@@ -1,0 +1,73 @@
+@import url(../css/fonts.css);
+
+:root {
+    --black: #211f1b;
+    --white: #edebd7;
+    --red: #bc4b51;
+    --green: #5b8e7d;
+    --yellow: #e3b23c;
+
+    color: var(--black);
+}
+
+body {
+    background: var(--white);
+}
+
+/********************************/
+/* TYPOGRAPHY */
+/********************************/
+
+h1,
+.bigblack {
+    /*big black*/
+    /*big red is --red*/
+    font-family: "Hanken Grotesk";
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--black);
+}
+
+.bigred {
+    color: var(--red);
+}
+
+h2,
+.medium {
+    /*medium*/
+    font-family: "Hanken Grotesk";
+    font-weight: 400;
+    font-size: 36px;
+    color: var(--black);
+}
+
+h3,
+.small {
+    /*small*/
+    font-family: "Hanken Grotesk";
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--black);
+}
+
+p,
+.text {
+    /*text*/
+    font-family: "Roboto Serif";
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black);
+}
+
+sub,
+.textsmall {
+    /*text small*/
+    font-family: "Roboto Serif";
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--black);
+}
+
+a {
+    text-decoration: underline;
+}

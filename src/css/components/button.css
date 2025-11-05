@@ -1,0 +1,19 @@
+.btn {
+    border-radius: 10px;
+    background: var(--white);
+    border: solid 3px var(--red);
+
+    padding: 4px 24px;
+
+    font-family: "Hanken Grotesk";
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    color: var(--red);
+}
+
+.btn:hover {
+    border-color: var(--yellow);
+    color: var(--yellow);
+    cursor: pointer;
+}
