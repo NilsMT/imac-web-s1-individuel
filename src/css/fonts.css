@@ -10,20 +10,6 @@
     font-weight: 700;
 }
 
-@font-face {
-    font-family: "Hanken Grotesk";
-    src: url(../assets//fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf);
-    font-style: italic;
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "Hanken Grotesk";
-    src: url(../assets//fonts/hanken-grotesk/HankenGrotesk-Italic-VariableFont_wght.ttf);
-    font-style: italic;
-    font-weight: 700;
-}
-
 /*********************************************************/
 
 @font-face {
