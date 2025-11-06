@@ -23,6 +23,7 @@ main > ul {
     margin-inline: 16px;
     text-align: left;
     align-self: start;
+    text-wrap: wrap;
 }
 
 main > h3 {
@@ -38,4 +39,8 @@ main > ul {
 /********************************/
 
 @media screen and (max-width: 412px) and (max-height: 917px) {
+    main {
+        padding-inline: 0px;
+        width: 100vw;
+    }
 }

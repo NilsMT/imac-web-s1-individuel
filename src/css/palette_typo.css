@@ -71,4 +71,5 @@ sub,
 
 a {
     text-decoration: underline;
+    color: var(--black);
 }
