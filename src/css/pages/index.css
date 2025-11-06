@@ -7,6 +7,10 @@
     align-self: center;
 }
 
+/********************************/
+/* RESPONSIVITY */
+/********************************/
+
 @media screen and (max-width: 412px) and (max-height: 917px) {
     #title {
         font-size: 48px;
