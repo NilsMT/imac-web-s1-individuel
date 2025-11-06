@@ -46,6 +46,10 @@ footer {
     max-width: 221px;
 }
 
+#fsg2 a {
+    color: var(--black);
+}
+
 /* 3rd */
 
 #fsg3 {

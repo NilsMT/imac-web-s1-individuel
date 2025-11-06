@@ -23,3 +23,17 @@ header {
 /********************************/
 /* RESPONSIVITY */
 /********************************/
+
+@media screen and (max-width: 412px) and (max-height: 917px) {
+    header {
+        justify-content: center;
+    }
+
+    header > *:first-child {
+        margin-left: 16px;
+    }
+
+    header > *:last-child {
+        margin-right: 16px;
+    }
+}

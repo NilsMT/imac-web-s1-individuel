@@ -1,0 +1,41 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+
+    width: 800px;
+}
+
+main > img {
+    object-fit: contain;
+    width: 100%;
+}
+
+main > h1,
+main > h2,
+main > h3,
+main > p,
+main > ul {
+    margin-inline: 16px;
+    text-align: left;
+    align-self: start;
+}
+
+main > h3 {
+    margin-top: 32px;
+}
+
+main > ul {
+    margin-inline: 32px; /*16px by default for bullets, 16px because of the mock-up*/
+}
+
+/********************************/
+/* RESPONSIVITY */
+/********************************/
+
+@media screen and (max-width: 412px) and (max-height: 917px) {
+}

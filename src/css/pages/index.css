@@ -1,0 +1,7 @@
+@import url(../../css/base.css);
+
+#title {
+    font-size: 72px;
+    width: 571px;
+    text-align: center;
+}
