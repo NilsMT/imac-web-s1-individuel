@@ -1,4 +1,4 @@
-## L'organisation du code :
+## L'organisation des dossiers :
 
 ```
 - docs : les documents
@@ -16,6 +16,6 @@
 
 > ⚠️ | Aucun code CSS/HTML n'a été généré par IA ni copié depuis le PenPot (à l'exceptions des textes)
 
-Réalisé en `4h 36m 07s`
+Réalisé en `4h 49m 07s`
 
 Nils MOREAU--THOMAS
