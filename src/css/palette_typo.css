@@ -33,7 +33,6 @@ h1,
     color: var(--red);
 }
 
-h2,
 .medium {
     /*medium*/
     font-family: "Hanken Grotesk";
@@ -42,7 +41,7 @@ h2,
     color: var(--black);
 }
 
-h3,
+h2,
 .small {
     /*small*/
     font-family: "Hanken Grotesk";

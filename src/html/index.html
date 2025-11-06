@@ -10,7 +10,7 @@
     <body>
         <header>
             <img id="logoHeader" src="../assets/img/logo.svg" alt="" />
-            <nav id="navHeader">
+            <nav id="navHeader" aria-label="Navigation principale">
                 <a href="../html/index.html" title="Revenir à l'accueil">
                     Accueil
                 </a>
@@ -31,7 +31,7 @@
 
             <img src="../assets/img/illustration_bike-desert.jpg" alt="" />
 
-            <h2>BikepackIMAC, la référence du bikepacking</h2>
+            <h2 class="medium">BikepackIMAC, la référence du bikepacking</h2>
 
             <p>
                 Grâce à nos guides détaillés, découvrez l'essentiel pour vivre
@@ -47,14 +47,16 @@
             >
                 Guide des vélos
             </a>
-            <!-- TODO: insert link-->
 
             <img src="../assets/img/illustration_itineraires.jpg" alt="" />
 
-            <a class="btn" title="Accéder au guide des itinéraires">
+            <a
+                class="btn"
+                href="../html/itineraires.html"
+                title="Accéder au guide des itinéraires"
+            >
                 Guide des itinéraires
             </a>
-            <!-- TODO: insert link-->
         </main>
 
         <footer>
@@ -62,7 +64,7 @@
                 <div id="footerSubgrid">
                     <div id="fsg1">
                         <p>Plan du site</p>
-                        <nav id="navFooter">
+                        <nav id="navFooter" aria-label="Navigation secondaire">
                             <a
                                 href="../html/index.html"
                                 class="textsmall"
@@ -70,7 +72,6 @@
                             >
                                 Accueil
                             </a>
-                            <!-- TODO: insert link-->
                             <a
                                 href="../html/velos.html"
                                 class="textsmall"
@@ -78,7 +79,6 @@
                             >
                                 Vélos
                             </a>
-                            <!-- TODO: insert link-->
                             <a
                                 href="../html/itineraires.html"
                                 class="textsmall"
