@@ -24,7 +24,7 @@ h1,
     /*big red is same but --red*/
     font-family: "Hanken Grotesk";
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3rem;
     color: var(--black);
     text-transform: uppercase;
 }
@@ -37,7 +37,7 @@ h1,
     /*medium*/
     font-family: "Hanken Grotesk";
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: var(--black);
 }
 
@@ -46,7 +46,7 @@ h2,
     /*small*/
     font-family: "Hanken Grotesk";
     font-weight: 400;
-    font-size: 32px;
+    font-size: 2rem;
     color: var(--black);
 }
 
@@ -55,7 +55,7 @@ p,
     /*text*/
     font-family: "Roboto Serif";
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--black);
 }
 
@@ -64,7 +64,7 @@ sub,
     /*text small*/
     font-family: "Roboto Serif";
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     color: var(--black);
 }
 
