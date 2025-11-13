@@ -27,7 +27,7 @@ footer {
 
 /* 1st & 2nd */
 
-#footerSubgrid > div > p {
+#footerSubgrid > section > p {
     font-family: "Roboto Serif";
     font-weight: 700;
     font-size: 0.75rem;
