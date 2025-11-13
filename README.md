@@ -17,5 +17,7 @@
 > ⚠️ | Aucun code CSS/HTML n'a été généré par IA ni copié depuis le PenPot (à l'exceptions des textes)
 
 Réalisé en `4h 49m 07s`
+Mise à jour sémantique en ~`32m`
+Temps total : `5h 21m 07s`
 
 Nils MOREAU--THOMAS
