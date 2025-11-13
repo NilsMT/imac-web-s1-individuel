@@ -12,7 +12,7 @@
     - html : les pages HTML
 ```
 
-> ℹ️ | la page [index.html](./src/html/index.html) correspond à la page d'accueil
+> ℹ️ | la page [index.html](./src/index.html) correspond à la page d'accueil
 
 > ⚠️ | Aucun code CSS/HTML n'a été généré par IA ni copié depuis le PenPot (à l'exceptions des textes)
 
